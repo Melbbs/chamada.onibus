@@ -1,10 +1,10 @@
-class Pagamento {
+import 'bilhete.dart';
+
+class Pagamento{
+  int id;
   double valor;
   String vencimento;
-  Pagamento(this.valor, this.vencimento);
-  bool pagConcluido() {
-      return true;
-    }
+  Bilhete bilhete;
 
-  }
-
+  Pagamento(this.id,this.valor, this.vencimento, this.bilhete);
+}

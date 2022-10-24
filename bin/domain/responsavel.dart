@@ -1,7 +1,10 @@
-class Responsavel {
-  int quantAlunos;
+class Responsavel{
+  int id;
   String descricao;
-  String telefone;
+  String nome;
+  int quantAlunos;
   String cpf;
-  Responsavel(this.quantAlunos, this.descricao, this.telefone, this.cpf);
+  String telefone;
+
+  Responsavel(this.id,this.descricao, this.nome, this.quantAlunos, this.cpf, this.telefone);
 }

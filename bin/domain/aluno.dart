@@ -1,7 +1,12 @@
-class Aluno {
-  int matricula;
+import 'responsavel.dart';
+
+class Aluno{
+  int id;
   String nome;
-  String curso;
+  int matricula;
   int idade;
-  Aluno(this.matricula, this.nome, this.curso, this.idade);
+  String curso;
+  Responsavel responsavel;
+
+  Aluno(this.id,this.nome, this.matricula, this.idade, this.curso, this.responsavel);
 }
